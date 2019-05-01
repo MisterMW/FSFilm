@@ -1,0 +1,104 @@
+﻿body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    background-color: forestgreen;
+}
+
+header {
+    /*font-weight: 300;*/
+}
+
+.headerlogo {
+    text-align: center;
+}
+    /*    figure {
+    float: left;
+    
+}*/
+    .headerlogo > img {
+        height: 180px;
+        width: 250px;
+        border: thick;
+        border-style: solid;
+        border-color: black;
+    }
+
+header > figcaption {
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.openingtext {
+    
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    border: thin;
+    border-style: solid;
+    border-color: brown;
+}
+.openingtext>p{
+    white-space:pre-wrap;
+
+}
+
+#sectiontext {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url('../images/forrestwall3.jpg');
+    background-repeat: repeat-x;
+}
+
+#video {
+    text-align: center;
+}
+figure{    
+}
+figure>figcaption{     
+    font-size:20px;
+    display:inline-flex;
+    caption-side:block-start;
+}
+
+#links {
+    text-align: center;
+    border: thin;
+    border-color: maroon;
+    border-style: solid;
+    color: midnightblue;
+}
+
+#links>header {
+    font-size:17px;
+    font-weight: bold;
+}
+
+aside > ul > li{
+    display: inline;
+    padding: 15px;
+    font-size:large; 
+}
+aside>ul>li>a{
+    color:midnightblue;   
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    background-color: lightgreen; 
+    font-size:small;
+}
+footer>p>a{
+    color:black;
+}
+
+mark {
+    background-color: brown;
+}
+
+fontLucida {
+    font-family: 'Lucida Handwriting';
+    font-size: 30px;
+}

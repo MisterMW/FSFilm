@@ -3,57 +3,59 @@
 <head>
     <meta charset="utf-8" />
     <title>Five days in Falun</title>
+    <link href="styles/Layout.css" rel="stylesheet" />
 </head>
 <body>
 
-    <header>
-        <div style="top: 20px; left: 250px;position: absolute; visibility:visible;">
-            <a class="headerlogo" href="index.html">
-                <figure style="border:thick;border-color:black;">
-                    <img src="images/falun.jpg" />
-                    <figcaption>From the shooting of the film on site in Falun</figcaption>
-                </figure>
-            </a>
+    <header id="mainheader">
+        <!--style="top: 20px; left: 250px;position: absolute; visibility:visible;"-->
+        <div class="headerlogo">
+            <!--<a class="headerlogo" href="index.html">-->
+            <!-- <figure>-->
+            <img src="images/falun.jpg" />
+            <figcaption>From film shooting site in Falun</figcaption>
+            <!--</figure>-->
+            <!--</a>-->
             <!--<p>-->
-                <h1>OPENING NOW!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Five days in Falun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPENING NOW!</h1>
             <!--</p>-->
         </div>
     </header>
-
+    <div class="openingtext">
+        <p>OPENING NOW > > > >     <fontLucida>     Five days in Falun     </fontLucida>     < < < < OPENING NOW!</p>
+    </div>
+    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
     <div>
-        <section id="sectiontext" style="top:320px;left:30px;position:absolute;visibility:visible">
-            <header><h2>Welcome to opening day for <mark>Five Days in Falun</mark> on June 1, what a day it will be</h2></header>
-            <span>
-                Five Days in Falun - at last it's here! Set in the dark forests of Swedish rural town Falun this deeply passionate drama will keep you on edge all the way through the closing scenes.<br />
-                Featuring this year's shining star Anna-Lisa Ericsson and top romantic actor Folke Filbyter, director Holger Hatt has managed to create a truly compelling story where the main characters<br />
-                will battle both heaven and hell in their efforts to keep a large and divided family together.'
-
+        <section id="sectiontext">
+            <header style="color:midnightblue">Welcome to opening day for <fontLucida><mark>Five Days in Falun</mark></fontLucida>&nbsp; on June 1.</header>
+            <span style="color:midnightblue">
+                <fontLucida>Five Days in Falun </fontLucida>- at last it's here! Set in the deep forests of Swedish rural town Falun this deeply passionate drama will keep you on edge all the way through the closing scenes.
+                Featuring this year's shining star Anna-Lisa Ericsson and top romantic actor Folke Filbyter, director Holger Hatt has managed to create a truly compelling story where the main characters
+                will battle both heaven and hell in their efforts to keep a large and divided family together.
             </span>
         </section>
     </div>
     <!--width="250" height="200"-->
-        <div  style="top:500px;left:30px;position:absolute;visibility:visible">
-            <!--<video> class="" id="" poster="images/film.jpg">-->
-                
-    <iframe width="460" height="215" src="https://www.youtube.com/embed/kH8FnnKLacc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               <!-- <source src="" type="" />-->
-               <!-- No support for video in your browser.-->
-            <!--</video>-->
+    <div id="video">
+        <figure>
 
-        </div>
-        <div style="bottom:100px; left:90px;position: absolute; visibility:visible;">
-            <aside id="links">
+            <iframe width="460" height="215" src="https://www.youtube.com/embed/kH8FnnKLacc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <figcaption>A short preview</figcaption>
+        </figure>
 
-                <ul>
-                    <li><a href="">Anna-Lisa Ericsson's blog</a></li>
-                    <li><a href="">Holger Hatt about the movie</a></li>
-                    <li><a href="">FS Film home page</a></li>
-                </ul>
-            </aside>
-        </div>
-        <!--controls autoplay muted loop-->
+    </div>
     <div>
-        <footer style="border:thick;border-color:black; bottom:20px; left:130px;position: absolute; visibility:visible;">
+        <aside id="links">
+            <header>Take a look at these links!</header>
+            <ul id="listOfLinks">
+                <li><a href="">Anna-Lisa Ericsson's blog</a></li>
+                <li><a href="">Holger Hatt about the movie</a></li>
+                <li><a href="">FS Film home page</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <div>
+        <footer>
             <p>
                 The content on this page is provided by FS Film inc.<br />
                 Webmaster: <a href="mailto:mikael.wetterdal@bahnhof.se">Mikael Wetterdal</a>
